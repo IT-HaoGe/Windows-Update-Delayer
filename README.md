@@ -10,7 +10,7 @@ ITHaoGe Windows Update Delayer for Win11/10，IT豪哥电脑更新暂停器，�
 
 软件主要用于暂停 Windows 系统更新，通过修改注册表来暂停更新，这是一种副作用很小的方法，保持系统的稳定性。软件支持 Windows11、 Windows10 (64位/32位)，有暂停系统更新需要的小伙伴，欢迎下载试用。
   
-<img src="https://github.com/IT-HaoGe/Windows-Update-Delayer/assets/130531658/7cc61f1b-b51d-4b99-9ba6-01d50cb2281a" width="650">
+<img src="https://github.com/IT-HaoGe/Windows-Update-Delayer/assets/130531658/5603ca30-ba3a-4940-85f7-caddc7ed9c63" width="650">
 
 ---
 
