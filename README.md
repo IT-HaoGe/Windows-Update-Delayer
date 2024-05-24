@@ -1,4 +1,4 @@
-<img src="https://github.com/IT-HaoGe/Windows-Update-Delayer/assets/130531658/8d7bb98a-3ff2-4480-a194-7574017a3ead" width="350">
+<img src="https://github.com/IT-HaoGe/Windows-Update-Delayer/assets/130531658/8d7bb98a-3ff2-4480-a194-7574017a3ead" width="200">
 
 # Windows-Update-Delayer
 
