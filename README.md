@@ -14,6 +14,24 @@ ITHaoGe Windows Update Delayer for Win11/10，IT豪哥电脑更新暂停器，�
 
 ---
 
+**🔷 功能特色**
+
+-C#原生开发，体积小巧运行流畅
+
+-工具开源免费，使用更省心安心
+
+-仅暂停更新，不影响系统其他组件正常运行
+
+-支持暂停系统更新到2026年、2035年、2054年
+
+-支持恢复 Windows 正常更新
+
+-支持快速打开系统更新页面
+
+-支持 Windows 10/11 系统‍‍‍‍‍‍‍‍‍
+
+---
+
 **🔷 软件发布与下载页面**
 
 https://www.ithaoge.cn/Windows-Update-Delayer.html
