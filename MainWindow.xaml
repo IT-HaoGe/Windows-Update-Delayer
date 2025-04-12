@@ -5,10 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Windows_Update_Delayer"
         mc:Ignorable="d"
-        Title="IT豪哥电脑更新暂停器 v1.0 (2024.5.22)" Height="345" Width="580" ResizeMode="CanMinimize" Icon="images/logo.png">
+        Title="IT豪哥电脑更新暂停器 v2.0 (2025.4.12)" Height="452" Width="615" ResizeMode="CanMinimize" Icon="images/logo.png">
 
     <Window.Resources>
-        
+
     </Window.Resources>
 
     <Grid>
@@ -18,27 +18,36 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Rectangle HorizontalAlignment="Center" Height="63" Stroke="Black" VerticalAlignment="Top" Width="580" StrokeThickness="0" Fill="#FF3B8ED0" Margin="0,272,0,0"/>
+        <Rectangle HorizontalAlignment="Center" Height="63" Stroke="Black" VerticalAlignment="Top" Width="640" StrokeThickness="0" Fill="#FF3B8ED0" Margin="0,374,0,0"/>
         <Button
-            Margin="26,114,0,0" Width="100" VerticalAlignment="Top" HorizontalAlignment="Left" Content="2026 年" Height="60" FontSize="20" Background="#FF3B8ED0" Foreground="White" BorderThickness="0,0,0,0" Click="Button_Click_1" Cursor="Hand"/>
-        <Button Width="100" VerticalAlignment="Top" HorizontalAlignment="Left" Content="2035 年" Height="60" FontSize="20" Background="#FF3B8ED0" Foreground="White" BorderThickness="0,0,0,0" Click="Button_Click_2" Cursor="Hand" Margin="148,114,0,0"/>
+            Margin="31,114,0,0" Width="100" VerticalAlignment="Top" HorizontalAlignment="Left" Content="2026 年" Height="60" FontSize="20" Background="#FF3B8ED0" Foreground="White" BorderThickness="0,0,0,0" Click="Button_Click_1" Cursor="Hand"/>
+        <Button Width="100" VerticalAlignment="Top" HorizontalAlignment="Left" Content="2035 年" Height="60" FontSize="20" Background="#FF3B8ED0" Foreground="White" BorderThickness="0,0,0,0" Click="Button_Click_2" Cursor="Hand" Margin="163,114,0,0"/>
         <Button
-            Margin="272,114,0,0" Width="100" VerticalAlignment="Top" HorizontalAlignment="Left" Content="2054 年" Height="60" FontSize="20" Background="#FF3B8ED0" Foreground="White" BorderThickness="0,0,0,0" Click="Button_Click_3" Cursor="Hand"/>
-        <Rectangle HorizontalAlignment="Center" Height="60" Stroke="Black" VerticalAlignment="Top" Width="580" StrokeThickness="0" Fill="#FF3B8ED0"/>
-        <TextBlock HorizontalAlignment="Left" Margin="68,9,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="304" Height="70" FontSize="34" Text="电脑更新暂停器" Foreground="White"/>
-        <TextBlock HorizontalAlignment="Left" Margin="323,27,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="238" Height="30" FontSize="20" Text="for Windows 11/10" Foreground="White"/>
+            Margin="295,114,0,0" Width="100" VerticalAlignment="Top" HorizontalAlignment="Left" Content="2054 年" Height="60" FontSize="20" Background="#FF3B8ED0" Foreground="White" BorderThickness="0,0,0,0" Click="Button_Click_3" Cursor="Hand"/>
+        <Rectangle HorizontalAlignment="Center" Height="60" Stroke="Black" VerticalAlignment="Top" Width="640" StrokeThickness="0" Fill="#FF3B8ED0"/>
+        <TextBlock HorizontalAlignment="Left" Margin="66,9,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="304" Height="70" FontSize="34" Text="电脑更新暂停器" Foreground="White"/>
+        <TextBlock HorizontalAlignment="Left" Margin="320,27,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="238" Height="30" FontSize="20" Text="for Windows 11/10" Foreground="White"/>
         <Image HorizontalAlignment="Left" Height="64" Margin="5,0,0,0" VerticalAlignment="Top" Width="56" Source="images/logo.png"/>
-        <TextBlock HorizontalAlignment="Left" Margin="410,186,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text=""/><Hyperlink TextDecorations="None" NavigateUri="https://link3.cc/ithaoge" RequestNavigate="Hyperlink_RequestNavigate"><Run Text="▲ 作者：IT豪哥"/></Hyperlink></TextBlock>
-        <TextBlock HorizontalAlignment="Left" Margin="410,206,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text=""/><Hyperlink TextDecorations="None" NavigateUri="https://www.ithaoge.cn/Windows-Update-Delayer.html" RequestNavigate="Hyperlink_RequestNavigate"><Run Text="★ 软件发布与下载页面"/></Hyperlink></TextBlock>
-        <TextBlock HorizontalAlignment="Left" Margin="410,226,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text=""/><Hyperlink TextDecorations="None" NavigateUri="https://github.com/IT-HaoGe/Windows-Update-Delayer" RequestNavigate="Hyperlink_RequestNavigate"><Run Text="★ 软件已开源 (GitHub)"/></Hyperlink></TextBlock>
-        <Label Content="一键暂停 Windows 更新到：" HorizontalAlignment="Left" Margin="23,73,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" Margin="456,190,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text=""/><Hyperlink TextDecorations="None" NavigateUri="https://link3.cc/ithaoge" RequestNavigate="Hyperlink_RequestNavigate"><Run Text="▲ 作者：IT豪哥"/></Hyperlink></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="456,212,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text=""/><Hyperlink TextDecorations="None" NavigateUri="https://www.ithaoge.cn/Windows-Update-Delayer.html" RequestNavigate="Hyperlink_RequestNavigate"><Run Text="★ 软件发布与下载页面"/></Hyperlink></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="456,230,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text=""/><Hyperlink TextDecorations="None" NavigateUri="https://github.com/IT-HaoGe/Windows-Update-Delayer" RequestNavigate="Hyperlink_RequestNavigate"><Run Text="★ 软件已开源 (GitHub)"/></Hyperlink></TextBlock>
+        <Label Content="一键暂停 Windows 更新到：" HorizontalAlignment="Left" Margin="28,73,0,0" VerticalAlignment="Top" FontSize="16"/>
         <Label Content="Label" HorizontalAlignment="Left" Margin="709,82,0,0" VerticalAlignment="Top"/>
         <Button
-            Margin="26,197,0,0" Width="160" VerticalAlignment="Top" HorizontalAlignment="Left" Content="恢复 Windows 更新" Height="45" FontSize="14" Background="#FF0067C0" Foreground="White" BorderThickness="0,0,0,0" Click="Button_Click_4" Cursor="Hand"/>
+            Margin="31,197,0,0" Width="160" VerticalAlignment="Top" HorizontalAlignment="Left" Content="恢复 Windows 更新" Height="45" FontSize="14" Background="#FF0067C0" Foreground="White" BorderThickness="0,0,0,0" Click="Button_Click_4" Cursor="Hand"/>
         <Button
-            Margin="212,197,0,0" Width="160" VerticalAlignment="Top" HorizontalAlignment="Left" Content="打开系统更新页面" Height="45" FontSize="14" Background="#FFDA6538" Foreground="White" BorderThickness="0,0,0,0" Click="Button_Click_5" Cursor="Hand"/>
-        <Image HorizontalAlignment="Left" Height="78" Margin="432,94,0,0" VerticalAlignment="Top" Width="86" Source="/images/ithaoge.jpg"/>
+            Margin="235,198,0,0" Width="160" VerticalAlignment="Top" HorizontalAlignment="Left" Content="打开系统更新页面" Height="45" FontSize="14" Background="#FFDA6538" Foreground="White" BorderThickness="0,0,0,0" Click="Button_Click_5" Cursor="Hand"/>
+        <Image HorizontalAlignment="Left" Height="78" Margin="478,98,0,0" VerticalAlignment="Top" Width="86" Source="/images/ithaoge.jpg"/>
         <TextBlock HorizontalAlignment="Left" Margin="804,241,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <Label Content="指定Win11系统最高更新版本：" HorizontalAlignment="Left" Margin="230,266,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Button
+            Margin="31,266,0,0" Width="160" VerticalAlignment="Top" HorizontalAlignment="Left" Content="禁止系统大版本更新" Height="95" FontSize="16" Background="#f45223" Foreground="White" BorderThickness="0,0,0,0" Click="Button_BlockFeatureUpdate" Cursor="Hand"/>
+        <Button
+            Margin="359,301,0,0" Width="100" VerticalAlignment="Top" HorizontalAlignment="Left" Content="23H2" Height="60" FontSize="20" Background="#FF3B8ED0" Foreground="White" BorderThickness="0,0,0,0" Click="Button_StayOn23H2" Cursor="Hand"/>
+        <Button
+            Margin="235,301,0,0" Width="100" VerticalAlignment="Top" HorizontalAlignment="Left" Content="24H2" Height="60" FontSize="20" Background="#FF3B8ED0" Foreground="White" BorderThickness="0,0,0,0" Click="Button_StayOn24H2" Cursor="Hand"/>
+        <Button
+            Margin="483,301,0,0" Width="100" VerticalAlignment="Top" HorizontalAlignment="Left" Content="22H2" Height="60" FontSize="20" Background="#FF3B8ED0" Foreground="White" BorderThickness="0,0,0,0" Click="Button_StayOn22H2" Cursor="Hand"/>
 
     </Grid>
 </Window>

@@ -1,8 +1,8 @@
-<img src="https://github.com/IT-HaoGe/Windows-Update-Delayer/assets/130531658/8d7bb98a-3ff2-4480-a194-7574017a3ead" width="200">
+<img src="https://github.com/IT-HaoGe/Windows-Update-Delayer/blob/main/images/v2.0.png" width="200">
 
 # Windows-Update-Delayer
 
-ITHaoGe Windows Update Delayer for Win11/10，IT豪哥电脑更新暂停器，快速暂停 Windows11/10 系统更新
+ITHaoGe Windows Update Delayer for Win11/10，IT豪哥电脑更新暂停器，快速暂停 Windows11/10 系统更新，2.0新版支持禁止 Windows 大版本更新
 
 **🔷 关于软件**
 
@@ -10,7 +10,7 @@ ITHaoGe Windows Update Delayer for Win11/10，IT豪哥电脑更新暂停器，�
 
 软件主要用于暂停 Windows 系统更新，通过修改注册表来暂停更新，这是一种副作用很小的方法，保持系统的稳定性。软件支持 Windows11、 Windows10 (64位/32位)，有暂停系统更新需要的小伙伴，欢迎下载试用。
   
-<img src="https://github.com/IT-HaoGe/Windows-Update-Delayer/assets/130531658/5603ca30-ba3a-4940-85f7-caddc7ed9c63" width="650">
+<img src="https://github.com/IT-HaoGe/Windows-Update-Delayer/blob/main/images/v2.0.png" width="650">
 
 ---
 
@@ -22,9 +22,13 @@ ITHaoGe Windows Update Delayer for Win11/10，IT豪哥电脑更新暂停器，�
 
 -仅暂停更新，不影响系统其他组件正常运行
 
--支持暂停系统更新到2026年、2035年、2054年
+-支持暂停系统更新到 2026年、2035年、2054年
 
 -支持恢复 Windows 正常更新
+
+-支持禁止 Windows 大版本更新（例如禁止 23H2 升级到 24H2）
+
+-支持指定 Win11 最高更新版本（可解除 Win11 升级限制）
 
 -支持快速打开系统更新页面
 
